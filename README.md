@@ -13,6 +13,7 @@ You can check out the live project [here](https://www.example.com).
 - **Scalable Architecture:** Flask backend ensures efficient handling of requests.
 
 ## File Structure
+```
 Gift-Recommender/
 │
 ├── backend/                  # All backend-related files
@@ -47,6 +48,7 @@ Gift-Recommender/
 ├── README.md                 # Main project README
 ├── .gitignore                # Specifies intentionally untracked files to ignore
 └── LICENSE                   # Project License
+```
 
 ## Installation
 To set up the project locally, follow these steps:
