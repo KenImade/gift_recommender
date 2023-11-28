@@ -12,6 +12,42 @@ You can check out the live project [here](https://www.example.com).
 - **User-Friendly Interface:** Easy-to-navigate frontend designed in React.
 - **Scalable Architecture:** Flask backend ensures efficient handling of requests.
 
+## File Structure
+Gift-Recommender/
+│
+├── backend/                  # All backend-related files
+│   ├── app.py                # Flask application entry point
+│   ├── models/               # Machine learning models and scripts
+│   │   ├── recommendation_model.py
+│   │   └── training/         # Notebooks and scripts for model training
+│   │       └── model_training.ipynb
+│   ├── routes/               # API routes
+│   │   └── api.py
+│   ├── services/             # Business logic/services
+│   ├── static/               # Static files for Flask
+│   ├── templates/            # HTML templates for Flask views
+│   └── requirements.txt      # Python dependencies
+│
+├── data/                     # Data directory
+│   ├── raw/                  # Raw data files
+│   ├── processed/            # Cleaned and processed data
+│   └── notebooks/            # Jupyter notebooks for data processing
+│       ├── data_cleaning.ipynb
+│       └── data_exploration.ipynb
+│
+├── frontend/                 # All frontend-related files
+│   ├── public/               # Public files like index.html
+│   ├── src/                  # React source files
+│   │   ├── components/       # React components
+│   │   ├── App.js            # Main React application file
+│   │   ├── App.css           # Main application styles
+│   │   └── index.js          # React application entry point
+│   └── package.json          # Node.js dependencies and scripts
+│
+├── README.md                 # Main project README
+├── .gitignore                # Specifies intentionally untracked files to ignore
+└── LICENSE                   # Project License
+
 ## Installation
 To set up the project locally, follow these steps:
 
